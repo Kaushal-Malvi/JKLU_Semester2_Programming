@@ -1,30 +1,62 @@
-# Lab 2 – C Operators
+# Lab 3 – C Loops
 
 ## Questions
 
-1. Write a C program to input two integers and perform the following operations:
-   - Addition
-   - Subtraction
-   - Multiplication
-   - Division
-   - Modulus
+1. Write a C program to print positive integers from 1 to 10.
 
-2. Write a C program to calculate the area and perimeter of a rectangle using arithmetic operators.
+2. Write a C program to print numbers in reverse order with a difference of 2.
 
-3. Write a C program to swap two numbers without using a third variable (use arithmetic operators).
+   Example:
+   Enter the upper value: 10  
+   Output: 10 8 6 4 2 1
 
-4. Write a C program to check whether a number is divisible by both 3 and 5 using logical operators.
+3. Write a C program to count the number of digits in a given integer.
 
-5. Write a C program to display the size of every basic data type using the `sizeof` operator.
+   Example:
+   Input: 3452  
+   Output: Number of digits = 4
 
-6. Write a C program to illustrate the use of:
-   - Unary prefix increment and decrement operators
-   - Unary postfix increment and decrement operators
+4. Write a C program to reverse a given integer.
 
-7. Write a C program to input two numbers and display the maximum number.
+   Example:
+   Input: 876  
+   Output: 678
 
-8. Write a C program to find the largest of three numbers using the ternary operator.
+5. Write a C program to print the sum of digits of a number using a for loop.
 
-9. Write a C program to demonstrate the working of the type casting operator.
+   Example:
+   Given number: 14892  
+   Output: 1 + 4 + 8 + 9 + 2 = 24
 
-10. Write a C program to reverse the bits of an integer using bitwise operators.
+6. Write a C program to check whether a number is a Palindrome or not.
+
+   Example:
+   Input: 151  
+   Output: Palindrome Number
+
+7. Write a C program to generate Fibonacci series.
+
+   Example:
+   Enter number of elements: 15  
+   Output:  
+   0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
+
+8. Write a C program to generate prime numbers between 1 and 10000.
+
+9. Write a C program to check whether a given number is an Armstrong number or not.
+
+   Note:  
+   An Armstrong number is a number that is equal to the sum of the cubes of its digits.  
+   Examples: 0, 1, 153, 370, 371, 407
+
+10. Write a C program to check whether a given number is a Perfect number or not.
+
+    Note:  
+    A Perfect number is a positive integer equal to the sum of its proper positive divisors.
+
+    Example:  
+    6 → Proper divisors: 1, 2, 3  
+    Sum = 1 + 2 + 3 = 6  
+    Therefore, 6 is a Perfect number.
+
+    Other examples: 28, 496
